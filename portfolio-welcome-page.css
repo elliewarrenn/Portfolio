@@ -4,29 +4,30 @@ html {
 }
 
 * {
-  color: black;
   font-family: Arial, Helvetica, sans-serif;
-  
-  text-align: center;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: inherit;
 }
 
 abbr {
-  text-decoration: none;
+  text-decoration: inherit;
 }
 
 header {
-  font-size: 4em;
+  color: black;
+  font-size: 3em;
   font-weight: bold;
 
   margin-top: 10px;
 }
 
 main {
+  color: black;
   font-size: 1.5em;
+
+  text-align: center;
 
   margin: 30px;
 }
@@ -46,14 +47,18 @@ section {
   height:auto
 }
 
+footer {
+  text-align: center;
+}
+
 button {
-  color: black;
+  color: rgb(176, 116, 171);
   font-size: 2em;
   font-weight: bold;
 
-  background-color: lightblue;
+  background-color: rgb(232, 208, 250);
 
-  border: 1px solid black;
+  border: 1px solid rgb(176, 116, 171);
   border-radius: 50px;
 
   margin: 2vw;
